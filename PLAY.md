@@ -138,7 +138,7 @@ _At the far end of the alley: a silhouette. LUCY. She darts through a door on th
 **SONNY:**  
 Lucy!
 
-_A door bursts open. CHARLIE emerges — a grotesque creation: an actor in a massive crab costume, fire-engine red, with flowing blonde locks. On the crab's head: a tiny puppet of a mouse with a Charlie Chaplin mustache, clearly "controlling" the crab below._
+_A door bursts open. CHARLIE emerges — a grotesque creation: an actor in a massive crab costume, fire-engine red, with flowing blonde locks. On the crab's head: a tiny puppet of a mouse with a little toothbrush mustache, clearly "controlling" the crab below._
 
 **CHARLIE (MOUSE):**  
 _(high-pitched)_  

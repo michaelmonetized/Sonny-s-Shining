@@ -8,11 +8,11 @@
 
 The confetti fell like snow in a city that had forgotten what snow looked like.
 
-Sonny Tufts—two-time regional bowling champion, three-time heartbroken fool—watched the little paper diamonds catch the light of Bertie's Bustling Bubbles, the classiest dive on the wrong side of Vine. His fingers were wrapped around a champagne flute he couldn't afford, but tonight, he didn't care about money.
+Sonny—two-time regional bowling champion, three-time heartbroken fool—watched the little paper diamonds catch the light of Bertie's Bustling Bubbles, the classiest dive on the wrong side of Vine. His fingers were wrapped around a champagne flute he couldn't afford, but tonight, he didn't care about money.
 
 Tonight, he had Lucy.
 
-She laughed at something he'd said—he couldn't even remember what—and her red curls bounced like they were keeping time with the band. The way the light caught her eyes made him forget every gutter ball he'd ever thrown, every trophy Kewpie Morgan had stolen from under his nose.
+She laughed at something he'd said—he couldn't even remember what—and her red curls bounced like they were keeping time with the band. The way the light caught her eyes made him forget every gutter ball he'd ever thrown, every trophy Kewpie had stolen from under his nose.
 
 "You know what I love about you, Sonny?" Lucy leaned in close, her perfume cutting through the cigar smoke and spilled bourbon. "You're not like the other bowlers."
 
@@ -82,7 +82,7 @@ Bertie's smile widened until it threatened to crack his face in half. "Drives a 
 
 Kewpie.
 
-*Kewpie Morgan.*
+*Kewpie.*
 
 The name hit Sonny like a sixteen-pound ball to the gut. Kewpie, with his slicked-back hair and diamond pinky ring. Kewpie, who'd stolen three championships through bribery and blackmail. Kewpie, who collected women like other men collected stamps, using them up and throwing them away.
 
@@ -254,7 +254,7 @@ It was a crab. A crab the size of a Buick, fire-engine red, its shell gleaming w
 
 And perched atop this nightmare, nestled in a mane of luxurious blonde hair that would have made any starlet weep with envy, was a mouse.
 
-A tiny field mouse with a Charlie Chaplin mustache.
+A tiny field mouse with a little toothbrush mustache.
 
 It held what looked like miniature reins connected to the crab's eyestalks, and when it spoke, its voice was high and reedy but carried with surprising force.
 
@@ -1016,7 +1016,7 @@ A chop shop. Professional grade.
 
 Harry emerged from behind a stack of stripped engines. He was short, stocky, with a mustache that curled at the ends and hands that looked like they could crack walnuts—or necks—with equal ease.
 
-"Harry Pollard," the man introduced himself. "But everyone calls me Snub. You know why?"
+"Harry," the man introduced himself. "But everyone calls me Snub. You know why?"
 
 "Enlighten me."
 
@@ -1108,7 +1108,7 @@ One loop. Two. Three.
 
 And then, with a sound like wet ripping, the cable sliced through him entirely.
 
-Harry Pollard fell in sections. Perfect discs of meat and bone, each one a cross-section of human anatomy, stacked like fresh steaks on the platform.
+Harry fell in sections. Perfect discs of meat and bone, each one a cross-section of human anatomy, stacked like fresh steaks on the platform.
 
 Sonny stepped over the remains and headed for the back door.
 
@@ -1130,7 +1130,7 @@ The first lamp came out of nowhere.
 
 It exploded at his feet, raining Tiffany glass across the concrete. Sonny rolled behind a container as two more followed, shattering against the metal where he'd been standing.
 
-"Welcome to my collection!" A woman's voice floated down from somewhere above. "I've been expecting you, Mr. Tufts!"
+"Welcome to my collection!" A woman's voice floated down from somewhere above. "I've been expecting you, bowler boy!"
 
 Ivy's crow's nest. He could see it now—a tower of shipping containers welded together, rising like a lighthouse above the wharf. At the top, a figure moved against the stars.
 
@@ -1248,11 +1248,11 @@ Sonny kicked it open.
 
 ## CHAPTER TWENTY-NINE: FINAL BOSS
 
-Kewpie Morgan looked smaller in person.
+Kewpie looked smaller in person.
 
 He stood at the center of his engine room, surrounded by the mechanical heart of his floating kingdom. His slicked-back hair was impeccable. His diamond pinky ring caught the emergency lights. His smile was the smile of a man who had never lost anything he wanted to keep.
 
-"Sonny Tufts," Kewpie said. "The man who wouldn't quit. I have to admit, I'm impressed. I really thought Bertie would stop you. Or Charlie. Or *any* of the others."
+"Sonny," Kewpie said. "The man who wouldn't quit. I have to admit, I'm impressed. I really thought Bertie would stop you. Or Charlie. Or *any* of the others."
 
 "They tried."
 
@@ -1412,17 +1412,21 @@ The words hung in the air between them. The boat's engine coughed. The ocean sla
 
 "You went with him," Sonny said. "You chose him."
 
-"I was *scared* of him." Lucy's voice cracked. "He said if I didn't come, he'd hurt you. Hurt your family. Everyone you'd ever cared about. So I went. I smiled. I laughed. I did what I had to do to keep you safe."
+"I never asked you to save me, Sonny." Lucy's voice cracked. "I never *needed* saving. I was making a *choice*. Maybe it was the wrong one, maybe I would have come back, maybe I was just... testing, seeing if you were what I wanted." She gestured at him—at the blood, the wounds, the madness written across his body. "But now I know exactly what you are."
+
+"I'm the man who loves you."
+
+"You're the man who destroyed a city for his pride." She shook her head slowly. "That's not love. That's possession."
 
 "And now?"
 
-"Now?" She looked at him—really looked—taking in the blood, the wounds, the madness in his eyes. "Now I'm scared of *you*."
+"Now?" She looked at him—really looked—taking in everything he'd become. "Now I'm scared of *you*."
 
 She grabbed the ladder.
 
 "Lucy, wait—"
 
-"Goodbye, Sonny."
+"Goodbye, Sonny. I hope the trophy was worth it."
 
 She climbed down. The fishing boat's engine revved. And slowly, impossibly, the gap between them widened.
 
@@ -1432,7 +1436,9 @@ He watched as Lucy's silhouette grew smaller against the waves. He watched as he
 
 He watched until there was nothing left to watch.
 
-Then he sank to his knees on the blood-spattered deck and let the night swallow him whole.
+Then he sank to his knees on the blood-spattered deck.
+
+His ball-shining towel—his companion through every battle, every impossible moment—slipped from his fingers. It fell, caught the wind for a moment like it was trying to fly, and then dropped into the black water below. The sea swallowed it without a sound.
 
 The city glittered in the distance, indifferent to his pain.
 
@@ -1441,6 +1447,10 @@ The ocean stretched endlessly, promising nothing.
 And somewhere, carried on the wind, he thought he heard her sobbing.
 
 But maybe that was just the waves.
+
+"I just wanted to be the one she chose," he whispered to no one.
+
+The lanes stay empty.
 
 ---
 
@@ -1456,7 +1466,7 @@ But maybe that was just the waves.
 
 The yacht drifted into port at dawn.
 
-Harbor patrol found Sonny on the deck, unconscious but alive, surrounded by the detritus of his war. The official report would list Kewpie Morgan as "missing, presumed dead"—the polite fiction that saved everyone embarrassing questions.
+Harbor patrol found Sonny on the deck, unconscious but alive, surrounded by the detritus of his war. The official report would list Kewpie as "missing, presumed dead"—the polite fiction that saved everyone embarrassing questions.
 
 The city didn't mourn.
 
