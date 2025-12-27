@@ -1,6 +1,50 @@
 # SONNY'S SHINING
 
-*A Novel*
+_A Novel_
+
+---
+
+## INSIDE COVER
+
+They called him the best natural talent the lanes had ever seen.
+
+Sonny had the arm, the eye, the instincts—everything a champion needed except the one thing that mattered most: the will to play dirty. In a sport ruled by fixers and phonies, his stubborn honesty made him dangerous. His love for the game made him a target.
+
+And his love for Lucy? That made him a fool.
+
+When the woman of his dreams vanishes into the back of his rival's limousine on New Year's Eve, Sonny does what any heartbroken bowler would do: he tears the city apart to get her back. From smoke-filled bars to rooftop chases, from underground clubs to the deck of a pleasure yacht, he'll face an army of killers, freaks, and monsters—all of them on Kewpie's payroll, all of them standing between Sonny and the woman he loves.
+
+But as the body count rises and the blood on his hands grows harder to wash off, Sonny will discover something terrible: the line between hero and monster is thinner than a bowling lane, and some victories cost more than any trophy is worth.
+
+_A fever dream of violence and heartbreak. A tragedy dressed up as a love story. A beat-em-up requiem for a fool who couldn't stop swinging._
+
+---
+
+## PRELUDE
+
+_Before the first pin falls..._
+
+There's a moment in every bowler's life when the ball leaves your hand and you know—you just _know_—it's going to be a strike. The spin is perfect. The angle is true. The pins are already falling in your mind before the ball even reaches them.
+
+That's how Sonny felt the first time he saw Lucy.
+
+She was standing at the edge of the tournament crowd, red hair catching the fluorescent lights like fire, watching him with eyes that seemed to see right through his mediocre record and straight into his soul. He released his ball without looking. Perfect strike. The crowd went wild.
+
+She smiled.
+
+And Sonny, God help him, smiled back.
+
+That was three months ago. Three months of tournaments and "accidental" meetings, of shared drinks and stolen glances, of falling so hard and so fast that he forgot the first rule of bowling:
+
+_Keep your eye on the pins, not the crowd._
+
+Because while Sonny was watching Lucy, someone else was watching too.
+
+Someone with a bowling-pin limousine and an empire built on broken fingers.
+
+Someone who always got what he wanted.
+
+And tonight, on the last night of the year, Kewpie wanted Lucy.
 
 ---
 
@@ -18,7 +62,7 @@ She laughed at something he'd said—he couldn't even remember what—and her re
 
 "Yeah?" He tried to sound casual, like his heart wasn't doing the Charleston in his chest. "How's that?"
 
-"You actually *care* about the game. Kewpie, he just cares about winning." She made a face like she'd tasted something sour. "About the fame. The money. You? You love the pins. The sound they make when they fall."
+"You actually _care_ about the game. Kewpie, he just cares about winning." She made a face like she'd tasted something sour. "About the fame. The money. You? You love the pins. The sound they make when they fall."
 
 Sonny grinned. She understood. God help him, she actually understood.
 
@@ -60,7 +104,7 @@ The clock struck 11:52.
 
 Sonny stood frozen on the dance floor while couples swirled around him like he was a rock in a river. The champagne in his stomach had turned to lead.
 
-*She'll be right back*, he told himself. *She said she'd be right back.*
+_She'll be right back_, he told himself. _She said she'd be right back._
 
 But the way she'd moved. The way her face had changed. The way Bertie was still smiling that snake-oil smile...
 
@@ -82,7 +126,7 @@ Bertie's smile widened until it threatened to crack his face in half. "Drives a 
 
 Kewpie.
 
-*Kewpie.*
+_Kewpie._
 
 The name hit Sonny like a sixteen-pound ball to the gut. Kewpie, with his slicked-back hair and diamond pinky ring. Kewpie, who'd stolen three championships through bribery and blackmail. Kewpie, who collected women like other men collected stamps, using them up and throwing them away.
 
@@ -162,7 +206,7 @@ He was almost to the back door when something hit him from behind—a full champ
 
 Bertie loomed over him, face a mask of blood and rage.
 
-"You're not the first lovesick fool who's tried to play hero in my bar," the big man growled. He was holding a magnum of champagne by the neck, the most expensive weapon Sonny had ever seen. "You won't be the last. But you *will* be an example."
+"You're not the first lovesick fool who's tried to play hero in my bar," the big man growled. He was holding a magnum of champagne by the neck, the most expensive weapon Sonny had ever seen. "You won't be the last. But you _will_ be an example."
 
 The magnum started its descent.
 
@@ -234,7 +278,7 @@ Then she was gone.
 
 And from the door beside him—the kitchen exit he hadn't noticed—came a sound that made his blood run cold.
 
-*Clack. Clack. Clack.*
+_Clack. Clack. Clack._
 
 Like something with too many legs moving across a tile floor.
 
@@ -272,7 +316,7 @@ The crab snapped its claws, producing a sound like two guillotines practicing th
 
 The crab began to advance, legs moving in perfect synchronization.
 
-"...you've interrupted my *soufflé*."
+"...you've interrupted my _soufflé_."
 
 Sonny dove sideways as a claw scythed through the space where he'd been standing. It struck a dumpster and went through the steel like paper, spraying garbage across the alley.
 
@@ -298,19 +342,19 @@ Pain exploded up Sonny's leg as the claw squeezed, not enough to sever but enoug
 
 Sonny hung upside down, blood rushing to his head, watching the cobblestones spin below him.
 
-Think. *Think.*
+Think. _Think._
 
 He was a bowler. His whole life was about understanding angles, calculating trajectories, finding the perfect point of impact to send pins flying in exactly the right direction.
 
 The crab's shell gleamed in the moonlight. Tough. Armored. But shells had joints. Shells had weak points.
 
-And crabs, despite their impressive appearance, were fundamentally *stupid*.
+And crabs, despite their impressive appearance, were fundamentally _stupid_.
 
 "Hey, Charlie," Sonny grunted through the pain. "What do you call a crab that plays baseball?"
 
 The mouse frowned. "What?"
 
-"A *pinch* hitter."
+"A _pinch_ hitter."
 
 Charlie's whiskers twitched in annoyance. "That's terrible. Claude, finish him."
 
@@ -320,7 +364,7 @@ Sonny whipped out his towel.
 
 Not at the crab. At the fire escape above him.
 
-The weighted corner wrapped around a rung, and Sonny *pulled*, using the crab's own grip as a fulcrum. His body swung upward in an arc, his free foot connecting with the underside of Claude's claw—right at the joint where chitin met softer tissue.
+The weighted corner wrapped around a rung, and Sonny _pulled_, using the crab's own grip as a fulcrum. His body swung upward in an arc, his free foot connecting with the underside of Claude's claw—right at the joint where chitin met softer tissue.
 
 Claude shrieked—a sound like steam escaping a broken pipe—and the claw spasmed open.
 
@@ -352,7 +396,7 @@ The kitchen was a labyrinth of stainless steel and steam.
 
 Sonny wove between prep stations, ducking under hanging pots, vaulting over countertops. Claude followed, his bulk smashing through everything in his path, sending pans and utensils flying.
 
-"You can't run forever!" Charlie's voice echoed off the tiles. "This is *my* domain! Every surface, every tool, every *knife* answers to me!"
+"You can't run forever!" Charlie's voice echoed off the tiles. "This is _my_ domain! Every surface, every tool, every _knife_ answers to me!"
 
 As if to prove his point, a cleaver embedded itself in the wall an inch from Sonny's head. He looked back to see a sous chef—eyes glassy, movements jerky—reaching for another blade.
 
@@ -372,7 +416,7 @@ An idea began to form.
 
 "Their taxonomy, obviously. Crabs are Brachyura, lobsters are—"
 
-"Wrong!" Sonny reached the stockpot and grabbed the lid. "The difference is, lobsters get cooked *head first*!"
+"Wrong!" Sonny reached the stockpot and grabbed the lid. "The difference is, lobsters get cooked _head first_!"
 
 He swung the lid like a discus, not at Claude, but at the burner controls.
 
@@ -384,7 +428,7 @@ The stockpots—already simmering—erupted like geysers, sending columns of boi
 
 Claude shrieked and reared back, his shell providing protection but his joints and eyes far more vulnerable. He crashed into a rack of pots, sending them cascading down, and Charlie was thrown from his perch, tumbling into a bin of flour.
 
-"Claude! *CLAUDE!*"
+"Claude! _CLAUDE!_"
 
 Sonny moved through the steam by memory and instinct, counting steps, feeling his way. His hands found the heavy-duty string used for trussing turkeys. Perfect.
 
@@ -428,7 +472,7 @@ Sonny wound up like he was preparing for the championship bowl of his life.
 
 And threw.
 
-The pot sailed through the air in a perfect arc, trailing crab juice like a comet's tail. It cleared the fence at the alley's back, descended, and landed with a wet *crunch* in the back of the garbage truck.
+The pot sailed through the air in a perfect arc, trailing crab juice like a comet's tail. It cleared the fence at the alley's back, descended, and landed with a wet _crunch_ in the back of the garbage truck.
 
 The compactor began its cycle.
 
@@ -472,7 +516,7 @@ Now—where?
 
 The answer came as a voice, drifting down from above like a song half-remembered.
 
-"—and then he said, 'Honey, that's not my bowling ball!' Can you *imagine*?"
+"—and then he said, 'Honey, that's not my bowling ball!' Can you _imagine_?"
 
 Lucy. Laughing. Telling stories to someone unseen.
 
@@ -482,7 +526,7 @@ There she was, five stories above him, silhouetted against the full moon on some
 
 As if she wasn't being chased by a man who had just murdered a crab the size of a sedan.
 
-"Lucy!" He cupped his hands around his mouth. "*LUCY!*"
+"Lucy!" He cupped his hands around his mouth. "_LUCY!_"
 
 For a moment—just a moment—she looked down. Their eyes met across the vertical distance. Something flickered across her face. Recognition? Fear?
 
@@ -536,7 +580,7 @@ Books. Shoes. Potted plants. A small yapping dog that, thankfully, landed on a l
 
 "New year, same bullshit!" an old woman screamed, hurling a brass candlestick that whistled past Sonny's ear. "Can't even have ONE NIGHT without some mook climbing the building!"
 
-The building, Sonny realized, wasn't just run-down. It was *deranged*. Every tenant seemed to have a personal grudge against the concept of visitors.
+The building, Sonny realized, wasn't just run-down. It was _deranged_. Every tenant seemed to have a personal grudge against the concept of visitors.
 
 Kewpie's payroll. Again.
 
@@ -608,7 +652,7 @@ Desi gagged, his hands scrabbling at the wire protruding from his lips. Blood bu
 
 Sonny didn't watch.
 
-He grabbed the other end of the coat hanger, looped it around the clothesline that stretched across the alley—a relic of more innocent times when people hung their laundry to dry in the city air—and *pushed*.
+He grabbed the other end of the coat hanger, looped it around the clothesline that stretched across the alley—a relic of more innocent times when people hung their laundry to dry in the city air—and _pushed_.
 
 Desi went sailing.
 
@@ -682,7 +726,7 @@ The room was... educational.
 
 Cages hung from the ceiling. Leather straps festooned the walls. Massage tables—if that's what they were—lined the perimeter, occupied by patrons in various states of undress and distress.
 
-And everywhere, *everywhere*, there were heels.
+And everywhere, _everywhere_, there were heels.
 
 Stilettos as long as daggers. Platforms tall enough to require a safety harness. Pumps with spikes that could puncture steel.
 
@@ -690,7 +734,7 @@ Stilettos as long as daggers. Platforms tall enough to require a safety harness.
 
 The voice came from the far end of the room, where a woman stood atop a small stage. She was tall—impossibly tall, thanks to shoes that added a good eight inches to her height. Her blonde hair was sculpted into an elaborate tower. Her outfit was leather and lace, revealing and concealing in equal measure.
 
-"An uninvited guest." She smiled, and it was the smile of a snake eyeing a mouse. "I do *love* uninvited guests."
+"An uninvited guest." She smiled, and it was the smile of a snake eyeing a mouse. "I do _love_ uninvited guests."
 
 "I'm just passing through," Sonny said, climbing to his feet. "The door's behind you, and I need to be on the other side of it."
 
@@ -728,7 +772,7 @@ Sonny ducked, rolled, came up swinging. His fist connected with a jaw, and he fe
 
 Tippi's customers fought dirty. They scratched and bit and aimed for sensitive areas with surgical precision. One woman got her arms around him from behind while another wound up with a leather paddle that had nails embedded in its surface.
 
-Sonny threw himself backward, crushing the woman behind him against a cage, and caught the incoming paddle with his forearm. It hurt. *God*, it hurt. But the pain was clarifying, focusing.
+Sonny threw himself backward, crushing the woman behind him against a cage, and caught the incoming paddle with his forearm. It hurt. _God_, it hurt. But the pain was clarifying, focusing.
 
 He tore the paddle from its owner's grip and swung it in a wide arc, scattering the attackers.
 
@@ -742,7 +786,7 @@ For a moment, complete darkness. Then, slowly, red bulbs flickered to life—dim
 
 And in that nightmare, things moved.
 
-Sonny couldn't see them clearly—just shapes, shadows, figures that didn't walk so much as *slither*. They surrounded him in the darkness, their breathing the only sound.
+Sonny couldn't see them clearly—just shapes, shadows, figures that didn't walk so much as _slither_. They surrounded him in the darkness, their breathing the only sound.
 
 "My best students," Tippi purred from somewhere in the red. "They've been waiting for a partner."
 
@@ -756,7 +800,7 @@ Sonny thought about Lucy. About her laugh, her eyes, the way she'd looked at him
 
 "Yeah," he said. "Duck."
 
-He dropped his weight, going limp, and the razors passed over his head. In the confusion, he grabbed two of the hands holding him and *twisted*, using their bodies as shields.
+He dropped his weight, going limp, and the razors passed over his head. In the confusion, he grabbed two of the hands holding him and _twisted_, using their bodies as shields.
 
 The razors found flesh. Screaming erupted.
 
@@ -812,7 +856,7 @@ The elevator dropped.
 
 The descent was faster than expected.
 
-The elevator plummeted, not gradually but in a barely-controlled freefall, the crank spinning uselessly in Sonny's hands. He braced himself against the cage walls as the floors blurred past—fourth, third, second, first, and then *beyond*, into some basement level that shouldn't have existed.
+The elevator plummeted, not gradually but in a barely-controlled freefall, the crank spinning uselessly in Sonny's hands. He braced himself against the cage walls as the floors blurred past—fourth, third, second, first, and then _beyond_, into some basement level that shouldn't have existed.
 
 The cage hit bottom with a boom that rattled his bones.
 
@@ -866,13 +910,13 @@ The club was a maze of cocktail tables and velvet ropes. He wove between them, k
 
 Another record screamed past his ear. Then another. Bessie was firing them like artillery, each disc spinning with enough force to decapitate.
 
-"Dance, little man! *Dance!*"
+"Dance, little man! _Dance!_"
 
 Sonny grabbed a cocktail tray and used it as a shield. Two records embedded themselves in the metal, quivering like thrown knives.
 
 He kept moving.
 
-The crowd had cleared the dance floor, pressing against the walls, their eyes gleaming in the strobe lights. They weren't running. They were *watching*. This was the show they'd paid for.
+The crowd had cleared the dance floor, pressing against the walls, their eyes gleaming in the strobe lights. They weren't running. They were _watching_. This was the show they'd paid for.
 
 A bouncer cut off his path. Sonny feinted left, went right, and planted his foot in the man's solar plexus. The bouncer folded but didn't fall—these were professionals—and grabbed Sonny's ankle on the way down.
 
@@ -936,7 +980,7 @@ Bessie's eyes bulged. Her cheeks split, the sharp edge slicing through flesh, wi
 
 Sonny didn't stop.
 
-He grabbed the record and *pushed*, driving it deeper, watching the vinyl disappear between her parted teeth. Her screams became gurgles. Her gurgles became silence.
+He grabbed the record and _pushed_, driving it deeper, watching the vinyl disappear between her parted teeth. Her screams became gurgles. Her gurgles became silence.
 
 He pulled the record out. Her mouth—if it could still be called that—gaped from ear to ear, a Chelsea smile rendered in flesh and bone.
 
@@ -1078,7 +1122,7 @@ The cable unspooled behind him as he charged toward Harry's platform, cutting a 
 
 Harry saw him coming. The gold-toothed smile finally faltered.
 
-"Boys! *Boys!* Stop him!"
+"Boys! _Boys!_ Stop him!"
 
 But the boys were scattered, broken, drowning in the gasoline-slicked chaos of their own shop.
 
@@ -1096,7 +1140,7 @@ He pulled the lever.
 
 The winch roared to life, pulling the cable taut. Harry's body jerked as the hook—and the cable attached to it—began to wind back.
 
-But the cable didn't just pull. It *wrapped*.
+But the cable didn't just pull. It _wrapped_.
 
 Harry spun on the hook like a top, the cable coiling around him with each rotation. Faster and faster, the metal biting into his flesh, compressing him, the loops tightening until they began to cut.
 
@@ -1156,7 +1200,7 @@ A Handel lamp exploded near his head. A Pairpoint shattered against his shoulder
 
 "Not like her," Sonny grunted, pulling himself higher.
 
-"You're a fool! A romantic fool! Don't you understand? She went with Kewpie *willingly*! She chose him! Chose his money, his power, his *future*!"
+"You're a fool! A romantic fool! Don't you understand? She went with Kewpie _willingly_! She chose him! Chose his money, his power, his _future_!"
 
 Sonny's hand found the top edge of the tower. He heaved himself over.
 
@@ -1184,7 +1228,7 @@ Sonny didn't stop. He pushed deeper, forcing the heavy base down into her chest,
 
 His fingers found the cord.
 
-He grabbed it and *pulled*.
+He grabbed it and _pulled_.
 
 The lamp's power cord ripped through Ivy's insides, trailing coils of intestine and gore, emerging from between her legs in a bloody parody of birth.
 
@@ -1204,7 +1248,7 @@ The transformer blew after thirty seconds, cutting the power.
 
 Ivy crumpled, still smoldering, the lampshade casting a soft purple glow across her charred remains.
 
-Sonny walked to the edge of the crow's nest and looked out at the harbor. Kewpie's yacht—the *Kicking Klipper*, according to the letters painted on its hull—was pulling away from the dock.
+Sonny walked to the edge of the crow's nest and looked out at the harbor. Kewpie's yacht—the _Kicking Klipper_, according to the letters painted on its hull—was pulling away from the dock.
 
 But not fast enough.
 
@@ -1252,7 +1296,7 @@ Kewpie looked smaller in person.
 
 He stood at the center of his engine room, surrounded by the mechanical heart of his floating kingdom. His slicked-back hair was impeccable. His diamond pinky ring caught the emergency lights. His smile was the smile of a man who had never lost anything he wanted to keep.
 
-"Sonny," Kewpie said. "The man who wouldn't quit. I have to admit, I'm impressed. I really thought Bertie would stop you. Or Charlie. Or *any* of the others."
+"Sonny," Kewpie said. "The man who wouldn't quit. I have to admit, I'm impressed. I really thought Bertie would stop you. Or Charlie. Or _any_ of the others."
 
 "They tried."
 
@@ -1262,11 +1306,11 @@ Sonny's hands curled into fists.
 
 "Lucy—"
 
-"Lucy is upstairs. In my bedroom. She went there willingly, Sonny. She saw you bowl, and she saw *me* bowl, and she made her choice. She always chooses the winner. That's who she is. That's who she'll always be."
+"Lucy is upstairs. In my bedroom. She went there willingly, Sonny. She saw you bowl, and she saw _me_ bowl, and she made her choice. She always chooses the winner. That's who she is. That's who she'll always be."
 
 "You're lying."
 
-"Am I?" Kewpie spread his hands. "Look around you. Look at everything I've built. The empire. The yacht. The *legacy*. What have you built, Sonny? A reputation? Some trophies? A skill set that involves knocking down pins?"
+"Am I?" Kewpie spread his hands. "Look around you. Look at everything I've built. The empire. The yacht. The _legacy_. What have you built, Sonny? A reputation? Some trophies? A skill set that involves knocking down pins?"
 
 He began to circle, and Sonny circled with him. Two predators, sizing each other up.
 
@@ -1282,13 +1326,13 @@ And attacked.
 
 The fight was unlike anything Sonny had experienced.
 
-Kewpie was good. *Frighteningly* good. His years of practice on the rolling deck had given him a balance that bordered on supernatural. He moved like water, flowing around Sonny's attacks, countering with precise strikes that accumulated damage.
+Kewpie was good. _Frighteningly_ good. His years of practice on the rolling deck had given him a balance that bordered on supernatural. He moved like water, flowing around Sonny's attacks, countering with precise strikes that accumulated damage.
 
 They traded blows. Grappled. Broke apart and circled again.
 
 Kewpie's fist caught Sonny's jaw. Sonny's elbow found Kewpie's ribs. They fell together, rolled across the engine room floor, came up facing each other again.
 
-"You can't win," Kewpie gasped. "I've trained for this. I've prepared for this. I knew you'd come, Sonny. I *wanted* you to come. This is my ultimate victory—not just taking your girl, but breaking you in front of her."
+"You can't win," Kewpie gasped. "I've trained for this. I've prepared for this. I knew you'd come, Sonny. I _wanted_ you to come. This is my ultimate victory—not just taking your girl, but breaking you in front of her."
 
 Through the ceiling, Sonny could hear footsteps. Lucy was up there. Watching, maybe. Waiting.
 
@@ -1394,7 +1438,7 @@ She turned. Her face was streaked with tears and Kewpie's blood.
 
 It wasn't a greeting. It was... something else. Disappointment, maybe. Or resignation.
 
-"I came for you," he said. "I fought my way through the whole goddamn city. I killed... I don't even know how many people. For *you*."
+"I came for you," he said. "I fought my way through the whole goddamn city. I killed... I don't even know how many people. For _you_."
 
 "I know." She took a step toward the ladder. "I watched some of it. Heard about the rest."
 
@@ -1402,7 +1446,7 @@ It wasn't a greeting. It was... something else. Disappointment, maybe. Or resign
 
 She laughed. It wasn't her usual laugh—the bright, bubbling sound that had made him fall in love. This was hollow. Exhausted.
 
-"Forget?" she said. "Sonny, you just *exploded* a man. In front of me. You turned him into... into confetti. And you think we can just *forget*?"
+"Forget?" she said. "Sonny, you just _exploded_ a man. In front of me. You turned him into... into confetti. And you think we can just _forget_?"
 
 "I did it for you."
 
@@ -1412,7 +1456,7 @@ The words hung in the air between them. The boat's engine coughed. The ocean sla
 
 "You went with him," Sonny said. "You chose him."
 
-"I never asked you to save me, Sonny." Lucy's voice cracked. "I never *needed* saving. I was making a *choice*. Maybe it was the wrong one, maybe I would have come back, maybe I was just... testing, seeing if you were what I wanted." She gestured at him—at the blood, the wounds, the madness written across his body. "But now I know exactly what you are."
+"I never asked you to save me, Sonny." Lucy's voice cracked. "I never _needed_ saving. I was making a _choice_. Maybe it was the wrong one, maybe I would have come back, maybe I was just... testing, seeing if you were what I wanted." She gestured at him—at the blood, the wounds, the madness written across his body. "But now I know exactly what you are."
 
 "I'm the man who loves you."
 
@@ -1420,7 +1464,7 @@ The words hung in the air between them. The boat's engine coughed. The ocean sla
 
 "And now?"
 
-"Now?" She looked at him—really looked—taking in everything he'd become. "Now I'm scared of *you*."
+"Now?" She looked at him—really looked—taking in everything he'd become. "Now I'm scared of _you_."
 
 She grabbed the ladder.
 
@@ -1458,7 +1502,7 @@ The lanes stay empty.
 
 ---
 
-*A love letter to classic side-scrolling beat-em-ups and the golden age of cinema's strangest stars.*
+_A love letter to classic side-scrolling beat-em-ups and the golden age of cinema's strangest stars._
 
 ---
 
@@ -1498,17 +1542,58 @@ And some crossings, you don't come back from.
 
 ---
 
-*The lanes at Bertie's Bustling Bubbles were never rebuilt. The city razed the building and put up a parking lot, as cities do. But sometimes, late at night, you can still hear the echo of pins falling and the distant, fading ghost of a woman's laugh.*
+_The lanes at Bertie's Bustling Bubbles were never rebuilt. The city razed the building and put up a parking lot, as cities do. But sometimes, late at night, you can still hear the echo of pins falling and the distant, fading ghost of a woman's laugh._
 
-*Some say it's haunted.*
+_Some say it's haunted._
 
-*Some say it's just the wind.*
+_Some say it's just the wind._
 
-*But Sonny knows better.*
+_But Sonny knows better._
 
-*Sonny always knew better.*
+_Sonny always knew better._
 
 ---
 
 **FIN**
 
+---
+
+## BACK COVER
+
+> _"A blood-soaked valentine written in broken glass and spilled champagne."_
+
+---
+
+**New Year's Eve. Confetti in the air. Her hand in yours.**
+
+You're Sonny—pro bowler, tournament hopeful, and tonight, the luckiest guy at Bertie's Bustling Bubbles. Lucy's laughing at your jokes. The champagne's flowing. Midnight's coming and everything's perfect.
+
+Then the bartender whispers something in her ear.
+
+And she's gone.
+
+One door. One giggle. One glimpse of a bowling-pin limo pulling away into the night.
+
+**She keeps running. You keep following.**
+
+Through eight levels of urban hell—from dive bars to dance studios, from rooftop chases to the deck of a madman's yacht—Sonny will fight an army of killers for the woman he loves. His weapons: a ball-shining towel, a pair of fists, and the kind of stubborn devotion that turns men into monsters.
+
+But Lucy isn't a princess waiting to be saved.
+
+And Sonny isn't the hero he thinks he is.
+
+**SONNY'S SHINING** is a pulp-noir tragedy about love, violence, and the terrible things we do in the name of both. It's a beat-em-up fever dream. A romance written in blood. A story about a man who destroyed everything to win back a woman who never asked to be won.
+
+_Some games aren't meant to be played._
+
+_Some victories aren't worth the cost._
+
+_And some lanes stay empty forever._
+
+---
+
+_"What happens when you cross_ Streets of Rage _with_ Double Indemnity _and set it on fire? You get this beautiful, brutal nightmare of a book."_
+
+_"I couldn't stop reading. I couldn't stop cringing. I couldn't stop cheering. And when it was over, I just sat there, staring at the wall, wondering what the hell I'd just experienced."_
+
+_"The most romantic tragedy—or tragic romance—I've read in years. Sonny deserved better. So did Lucy. Neither of them got it."_
