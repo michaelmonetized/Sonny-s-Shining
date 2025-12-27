@@ -1,6 +1,6 @@
 # SONNY'S SHINING
 
-_A Novel_
+_A Novel by Michael Hurley_
 
 ---
 
