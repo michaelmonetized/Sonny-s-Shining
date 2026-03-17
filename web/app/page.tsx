@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
+import { PreorderButton } from './components/PreorderButton';
 
 export default function Home() {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -14,15 +16,15 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Ticker tape announcement */}
       <div className="ticker-tape animate-fade-in">
-        ★ EXTRA! EXTRA! ★ NEW NOVEL AVAILABLE NOW ★ READ ALL ABOUT IT ★
+        ★ NEW YEAR&apos;S EVE 1935 ★ SHE KEEPS RUNNING ★ YOU KEEP FOLLOWING ★ CHRISTMAS 2026 ★
       </div>
 
       {/* Masthead */}
       <header className="masthead animate-fade-in-up animation-delay-100">
         <div className="dateline max-w-6xl mx-auto px-4">
-          <span>Vol. I · No. 1</span>
-          <span className="edition-banner">Special Literary Edition</span>
-          <span>Est. MCMXXV</span>
+          <span>Vol. MCMXXXV · No. 1</span>
+          <span className="edition-banner">Rubber Hose Edition</span>
+          <span>December 31st, 1935</span>
         </div>
         <h1 className="masthead-title mt-4">The Shining Gazette</h1>
         <p className="masthead-subtitle">All the News That&apos;s Fit to Bowl</p>
@@ -34,12 +36,12 @@ export default function Home() {
           <div className="newspaper-rule-triple" />
           
           <div className="text-center mb-6">
-            <p className="headline-tertiary mb-3">Breaking Literary News</p>
+            <p className="headline-tertiary mb-3">A Beat-Em-Up Tragedy</p>
             <h2 className="headline-primary">
               SONNY&apos;S<br />SHINING
             </h2>
             <p className="headline-secondary">
-              A Fever Dream of Violence & Heartbreak
+              She Keeps Running. You Keep Following.
             </p>
           </div>
 
@@ -55,37 +57,43 @@ export default function Home() {
               
               <div className="article-text">
                 <p className="drop-cap">
-                  When Sonny Larino rolled his first perfect game at the age of twelve, nobody knew 
-                  that this prodigious talent would become the most feared and beloved figure in 
-                  all of Sunset Park. A tragedy dressed up in a party hat and trying not to cry, 
-                  this groundbreaking novel merges the grit of 1920s Brooklyn with the absurdist 
-                  violence of beat-em-up arcade classics.
+                  New Year&apos;s Eve. Confetti in the air. Her hand in yours. The clock strikes 
+                  midnight at Bertie&apos;s Bustling Bubbles, and for one perfect moment, 
+                  Sonny—a lanky hound dog man with droopy yet determined eyes—holds his 
+                  beloved Lucy close. A sleek red fox woman with a smile that goes right 
+                  through you. Then Bertie whispers something in her ear. Her expression 
+                  changes. She pulls away.
                 </p>
                 <p>
-                  The year is 1925. Prohibition has cast its shadow over the boroughs, speakeasies 
-                  flourish in darkness, and the bowling alleys of Brooklyn have become battlegrounds 
-                  where fortunes are won and lost, where honor is defended with fists as often as 
-                  with strikes and spares.
+                  Through the crowd, through the celebration, she&apos;s gone. Out the 
+                  back. Into the alley. And there—waiting in a limousine shaped like a 
+                  giant bowling pin—is Kewpie. A corpulent pig man with the face of a 
+                  cherub and the soul of a loan shark. She climbs in. The door closes. 
+                  The taillights disappear into the night.
                 </p>
                 <p>
-                  Enter Sonny&mdash;a man whose preternatural gift with the pins masks a soul 
-                  tormented by loss, driven by vengeance, and haunted by a love that transcends 
-                  the boundaries of mortality itself.
+                  What follows is eight brutal levels of heartbreak and violence. Through 
+                  speakeasies and back alleys, fire escapes and dance halls, chop shops 
+                  and moonlit docks. Sonny fights his way across the city, always one 
+                  step behind, always catching glimpses of that cream-tipped fox tail 
+                  disappearing around corners.
                 </p>
               </div>
 
               {/* Pull quote */}
               <blockquote className="pull-quote animate-slide-in-left animation-delay-400">
-                Every game Sonny plays is a séance, every strike a prayer, 
-                every spare a hope whispered into the void.
+                Every strike is a prayer. Every spare is a hope whispered 
+                into the void. Every frame brings him closer to her.
               </blockquote>
 
               <div className="article-text mt-6">
                 <p>
-                  Drawing on the silent film aesthetic of early cinema and the raw energy of 
-                  vaudeville performance, this tale weaves together comedy and tragedy in 
-                  unexpected ways. Violence erupts with balletic grace; heartbreak strikes 
-                  with the force of a perfect split.
+                  Rendered in the unmistakable style of 1930s rubber hose animation—think 
+                  Fleischer Studios meets noir cinema—every character springs to life with 
+                  noodle-like limbs, expressive pie-cut eyes, and the exaggerated movement 
+                  of a Max Fleischer fever dream. Anthropomorphic animals populate this 
+                  world: bears tend bar, roosters lord over tenement buildings, ravens run 
+                  underground dance studios, and cats spin records at midnight clubs.
                 </p>
               </div>
             </div>
@@ -94,125 +102,198 @@ export default function Home() {
             <div className="space-y-6">
               {/* Vintage illustration placeholder */}
               <div className="illustration-frame animate-fade-in-up animation-delay-200">
-                <div className="illustration-inner">
-                  <svg viewBox="0 0 200 260" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="200" height="260" fill="#e8dcc4"/>
-                    {/* Bowling pin illustration */}
-                    <ellipse cx="100" cy="220" rx="35" ry="25" fill="#2d2620" opacity="0.3"/>
-                    <path d="M75 200 Q65 160 80 120 Q90 90 100 70 Q110 90 120 120 Q135 160 125 200 Q120 220 100 220 Q80 220 75 200Z" fill="#f4e8d3" stroke="#2d2620" strokeWidth="2"/>
-                    <ellipse cx="100" cy="78" rx="18" ry="15" fill="#f4e8d3" stroke="#2d2620" strokeWidth="2"/>
-                    <path d="M82 100 Q100 105 118 100" stroke="#8b2c2c" strokeWidth="3" fill="none"/>
-                    <path d="M80 130 Q100 140 120 130" stroke="#8b2c2c" strokeWidth="3" fill="none"/>
+                <div className="illustration-inner p-4">
+                  <svg viewBox="0 0 200 280" className="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="200" height="280" fill="#e8dcc4"/>
+                    {/* Sonny - Hound Dog silhouette */}
+                    <ellipse cx="70" cy="250" rx="30" ry="15" fill="#2d2620" opacity="0.2"/>
+                    {/* Simple rubber hose character body */}
+                    <path d="M70 180 Q60 160 65 140 Q70 120 70 100 Q70 80 70 70" stroke="#2d2620" strokeWidth="12" strokeLinecap="round" fill="none"/>
+                    {/* Head - Hound shape */}
+                    <ellipse cx="70" cy="55" rx="25" ry="20" fill="#c9a55a" stroke="#2d2620" strokeWidth="2"/>
+                    {/* Floppy ear */}
+                    <path d="M48 50 Q35 60 40 80" stroke="#2d2620" strokeWidth="8" strokeLinecap="round" fill="none"/>
+                    {/* Muzzle */}
+                    <ellipse cx="85" cy="58" rx="12" ry="8" fill="#f4e8d3" stroke="#2d2620" strokeWidth="2"/>
+                    {/* Pie-cut eyes */}
+                    <circle cx="65" cy="48" r="6" fill="#2d2620"/>
+                    <path d="M62 46 L68 50" stroke="#f4e8d3" strokeWidth="2"/>
+                    {/* Nose */}
+                    <ellipse cx="93" cy="58" rx="4" ry="3" fill="#2d2620"/>
+                    {/* Arm with towel */}
+                    <path d="M60 120 Q40 130 35 150" stroke="#2d2620" strokeWidth="8" strokeLinecap="round" fill="none"/>
+                    <path d="M30 145 L40 160 L35 170" stroke="#8b2c2c" strokeWidth="4" strokeLinecap="round" fill="none"/>
+                    {/* Lucy silhouette in distance */}
+                    <ellipse cx="150" cy="255" rx="15" ry="8" fill="#2d2620" opacity="0.15"/>
+                    <path d="M150 230 Q145 210 150 190 Q155 170 150 160" stroke="#2d2620" strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.4"/>
+                    {/* Fox ears */}
+                    <path d="M143 145 L147 155 M157 145 L153 155" stroke="#2d2620" strokeWidth="3" fill="none" opacity="0.4"/>
+                    {/* Fox tail hint */}
+                    <path d="M165 200 Q180 195 175 210" stroke="#c9a55a" strokeWidth="4" strokeLinecap="round" fill="none" opacity="0.6"/>
+                    {/* Bowling pins scattered */}
+                    <path d="M170 260 Q168 250 172 240 Q175 235 172 230" stroke="#f4e8d3" strokeWidth="6" strokeLinecap="round" fill="none"/>
+                    <path d="M180 265 Q178 255 182 245 Q185 240 182 235" stroke="#f4e8d3" strokeWidth="5" strokeLinecap="round" fill="none"/>
                     {/* Stars */}
-                    <text x="50" y="40" fontSize="20" fill="#a67c3d">★</text>
-                    <text x="140" y="50" fontSize="16" fill="#a67c3d">★</text>
-                    <text x="30" y="250" fontSize="14" fill="#a67c3d">★</text>
-                    <text x="160" y="245" fontSize="18" fill="#a67c3d">★</text>
+                    <text x="15" y="30" fontSize="16" fill="#a67c3d">★</text>
+                    <text x="175" y="35" fontSize="12" fill="#a67c3d">★</text>
                     {/* Decorative text */}
-                    <text x="100" y="20" textAnchor="middle" fontSize="8" fill="#4a423a" fontFamily="serif" letterSpacing="2">DIVINE LANES</text>
+                    <text x="100" y="20" textAnchor="middle" fontSize="7" fill="#4a423a" fontFamily="serif" letterSpacing="1">NEW YEAR&apos;S EVE 1935</text>
                   </svg>
                 </div>
-                <p className="illustration-caption">An artist&apos;s rendering of the fateful pin</p>
-              </div>
-
-              {/* The Author box */}
-              <div className="shadow-box animate-fade-in-up animation-delay-300">
-                <h3 className="classified-box-title">About the Author</h3>
-                <p className="article-text text-sm !mb-0">
-                  <strong>Michael Hurley</strong> is a writer of peculiar tales and 
-                  chronicler of forgotten Americas. This is his debut novel, 
-                  written during a fever and revised during several more.
-                </p>
+                <p className="illustration-caption">The chase begins at midnight</p>
               </div>
 
               {/* Quick Facts */}
-              <div className="classified-box animate-fade-in-up animation-delay-400">
-                <h3 className="classified-box-title">Particulars</h3>
+              <div className="classified-box animate-fade-in-up animation-delay-300">
+                <h3 className="classified-box-title">Game Particulars</h3>
                 <ul className="vintage-list text-sm">
-                  <li><strong>Genre:</strong> Literary Noir</li>
-                  <li><strong>Setting:</strong> Brooklyn, 1925</li>
-                  <li><strong>Themes:</strong> Loss, Redemption</li>
-                  <li><strong>Style:</strong> Beat &apos;em up Prose</li>
-                  <li><strong>Rating:</strong> Suitable for Adults</li>
+                  <li><strong>Genre:</strong> Beat-Em-Up Noir</li>
+                  <li><strong>Setting:</strong> New Year&apos;s Eve, 1935</li>
+                  <li><strong>Art Style:</strong> Rubber Hose Animation</li>
+                  <li><strong>Levels:</strong> 8 Brutal Stages</li>
+                  <li><strong>Release:</strong> Christmas 2026</li>
+                  <li><strong>Price:</strong> $8 Preorder</li>
                 </ul>
+              </div>
+
+              {/* The Style box */}
+              <div className="shadow-box animate-fade-in-up animation-delay-400">
+                <h3 className="classified-box-title">The Aesthetic</h3>
+                <p className="article-text text-sm !mb-0">
+                  All characters rendered in <strong>Fleischer Studios style</strong>—rubber 
+                  hose limbs, four-fingered gloves, pie-cut eyes. Anthropomorphic animals 
+                  with fur, tails, and 1930s fashion. Think <em>Betty Boop</em> meets 
+                  <em>Roger Rabbit</em> meets film noir.
+                </p>
               </div>
 
               {/* Stamp */}
               <div className="text-center py-4">
                 <span className="stamp animate-fade-in animation-delay-500">
-                  First Edition
+                  Preorder Now
                 </span>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Chapter Preview Section */}
+        {/* The Bosses Section */}
         <section className="mt-12 animate-fade-in-up animation-delay-500">
           <div className="newspaper-rule-stars" />
           
           <div className="section-title-ornate">
-            <h3 className="headline-tertiary">Exclusive Chapter Preview</h3>
+            <h3 className="headline-tertiary">Eight Levels of Heartbreak</h3>
           </div>
 
           <div className="woodcut-border mt-6">
             <div className="woodcut-border-inner">
-              <div className="chapter-marker">Chapter One · The Divine Concession</div>
+              <div className="chapter-marker">The Brutal Path to Lucy</div>
               
-              <div className="article-text newspaper-columns">
-                <p className="drop-cap">
-                  The front door of Divine Lanes swung open to let the blue-grey afternoon 
-                  light spill across the oiled floors. All six lanes shone in the bright 
-                  gleam of the incoming day. The creak of Sonny&apos;s footsteps echoed off 
-                  the walls while, in the dim lights, the motes of cigarette ash danced 
-                  like snowfall in the windless air.
-                </p>
-                <p>
-                  &ldquo;Be right there, Sugar&mdash;&rdquo;
-                </p>
-                <p>
-                  From behind the concession, a squat, round man emerged, stopping short 
-                  when he saw the figure silhouetted against the open door.
-                </p>
-                <p>
-                  &ldquo;Well, I&apos;ll be double-damned. If it isn&apos;t the Prodigal 
-                  Pin himself.&rdquo;
-                </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🍸</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Bertie&apos;s Bubbles</h4>
+                  <p className="text-xs text-ink-faded mt-1">The bear bartender</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🦀</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Charlie&apos;s Cantina</h4>
+                  <p className="text-xs text-ink-faded mt-1">The crab &amp; mouse</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🐓</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Desi&apos;s Dwellings</h4>
+                  <p className="text-xs text-ink-faded mt-1">The rooster slumlord</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🪶</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Tippi&apos;s Tango</h4>
+                  <p className="text-xs text-ink-faded mt-1">The raven mistress</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🎵</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Bessie&apos;s Ballroom</h4>
+                  <p className="text-xs text-ink-faded mt-1">The jazz cat DJ</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🔧</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Harry&apos;s Haulers</h4>
+                  <p className="text-xs text-ink-faded mt-1">The bulldog mechanic</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🦉</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Ivy&apos;s Imports</h4>
+                  <p className="text-xs text-ink-faded mt-1">The owl aristocrat</p>
+                </div>
+                <div className="text-center p-3 bg-paper-aged">
+                  <div className="text-2xl mb-1">🐷</div>
+                  <h4 className="font-bold text-xs uppercase tracking-wide">Kewpie&apos;s Klipper</h4>
+                  <p className="text-xs text-ink-faded mt-1">The pig kingpin</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Features Grid */}
-        <section className="mt-12 animate-fade-in-up animation-delay-600">
+        {/* Cast of Characters */}
+        <section className="mt-12 animate-fade-in-up animation-delay-500">
           <div className="newspaper-rule-double" />
           
           <div className="section-title-ornate">
-            <h3 className="headline-tertiary">What Critics Are Saying</h3>
+            <h3 className="headline-tertiary">Dramatis Personæ</h3>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4 mt-6">
-            <div className="testimonial-card animate-fade-in-up animation-delay-300">
-              <p className="text-sm mb-2">
-                &ldquo;A knockout. I haven&apos;t cried this hard since they repealed 
-                the Volstead Act.&rdquo;
-              </p>
-              <p className="text-xs text-ink-faded">— The Brooklyn Eagle</p>
+          <div className="grid md:grid-cols-2 gap-6 mt-6">
+            <div className="character-card">
+              <div className="character-initial">S</div>
+              <div>
+                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">Sonny</h4>
+                <p className="text-xs text-accent-gold italic mb-1">Hound Dog · The Hero</p>
+                <p className="text-sm text-ink-brown">
+                  A lanky, athletic hound dog man with droopy yet determined eyes. His 
+                  signature ball-shining towel hangs from his back pocket. Every throw 
+                  is a prayer. Every catch is a memory of her.
+                </p>
+              </div>
             </div>
-
-            <div className="testimonial-card animate-fade-in-up animation-delay-400">
-              <p className="text-sm mb-2">
-                &ldquo;Hurley writes violence like poetry and heartbreak like a 
-                punch to the gut.&rdquo;
-              </p>
-              <p className="text-xs text-ink-faded">— Literary Quarterly</p>
+            
+            <div className="character-card">
+              <div className="character-initial">L</div>
+              <div>
+                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">Lucy</h4>
+                <p className="text-xs text-accent-gold italic mb-1">Red Fox · The Princess</p>
+                <p className="text-sm text-ink-brown">
+                  A knockout—a sleek red fox femme fatale with eyes that hold secrets. 
+                  Her giggle trails behind her like musical notes. The cream tip of her 
+                  tail is always the last thing you see.
+                </p>
+              </div>
             </div>
-
-            <div className="testimonial-card animate-fade-in-up animation-delay-500">
-              <p className="text-sm mb-2">
-                &ldquo;Part Dashiell Hammett, part fever dream, all unforgettable.&rdquo;
-              </p>
-              <p className="text-xs text-ink-faded">— Sunset Park Tribune</p>
+            
+            <div className="character-card">
+              <div className="character-initial">K</div>
+              <div>
+                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">Kewpie</h4>
+                <p className="text-xs text-accent-gold italic mb-1">Pig · The Villain</p>
+                <p className="text-sm text-ink-brown">
+                  Grotesque wealth made flesh—a corpulent pig man with the face of a 
+                  cherub and the soul of a loan shark. His bowling-pin limo prowls 
+                  the streets. Everyone in this city is on his payroll.
+                </p>
+              </div>
+            </div>
+            
+            <div className="character-card">
+              <div className="character-initial">B</div>
+              <div>
+                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">The Bosses</h4>
+                <p className="text-xs text-accent-gold italic mb-1">Various Animals · The Opposition</p>
+                <p className="text-sm text-ink-brown">
+                  Bears, crabs, roosters, ravens, cats, bulldogs, and owls. Each one 
+                  guards a piece of the city. Each one stands between Sonny and Lucy. 
+                  Each one falls.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -225,38 +306,38 @@ export default function Home() {
             <div className="corner-bl" />
             <div className="corner-br" />
             
-            <h3 className="headline-tertiary text-center mb-6">Within These Pages Await</h3>
+            <h3 className="headline-tertiary text-center mb-6">The Towel System</h3>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="vintage-icon">🎳</div>
-                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">High Stakes Bowling</h4>
+                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Catch</h4>
                 <p className="text-sm text-ink-faded">
-                  Where every frame could be your last
+                  Time it right. Snatch projectiles from the air.
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="vintage-icon">👊</div>
-                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Bone-Crunching Action</h4>
+                <div className="vintage-icon">💥</div>
+                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Return</h4>
                 <p className="text-sm text-ink-faded">
-                  Combat choreographed like ballet
+                  Hurl them back. Perfect catches deal double damage.
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="vintage-icon">💔</div>
-                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Devastating Romance</h4>
+                <div className="vintage-icon">⚡</div>
+                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Whip</h4>
                 <p className="text-sm text-ink-faded">
-                  A love that defies death itself
+                  Close range stuns. The towel never misses.
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="vintage-icon">🎭</div>
-                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Vaudeville Spirit</h4>
+                <div className="vintage-icon">🪢</div>
+                <h4 className="font-bold mb-1 text-sm uppercase tracking-wide">Grapple</h4>
                 <p className="text-sm text-ink-faded">
-                  Comedy and tragedy intertwined
+                  Swing across gaps. Use the environment.
                 </p>
               </div>
             </div>
@@ -266,87 +347,67 @@ export default function Home() {
         {/* Banner Ad CTA */}
         <section className="mt-12 animate-fade-in-up animation-delay-600">
           <div className="banner-ad">
-            <p className="text-xs tracking-widest mb-2 opacity-75">A NOVEL BY MICHAEL HURLEY</p>
-            <h3 className="text-2xl md:text-3xl font-bold mb-4" style={{ fontFamily: 'var(--font-playfair)' }}>
-              ORDER YOUR COPY TODAY
+            <p className="text-xs tracking-widest mb-2 opacity-75">A GAME BY MICHAEL HURLEY</p>
+            <h3 className="text-2xl md:text-3xl font-bold mb-2" style={{ fontFamily: 'var(--font-playfair)' }}>
+              PREORDER NOW — $8
             </h3>
-            <p className="text-sm opacity-90 mb-6 max-w-xl mx-auto">
-              Available now in hardcover, paperback, and electric editions. 
-              Ask at your local bookseller or order direct.
+            <p className="text-lg opacity-90 mb-4" style={{ fontFamily: 'var(--font-playfair)' }}>
+              🎄 Coming Christmas 2026 🎄
+            </p>
+            <p className="text-sm opacity-80 mb-6 max-w-xl mx-auto">
+              Lock in your copy at the special preorder price. 
+              Be among the first to chase Lucy through the neon-lit streets.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="vintage-button vintage-button-gold">
-                Buy Now
-              </button>
+              <PreorderButton variant="gold" />
               <button className="vintage-button vintage-button-outline" style={{ color: 'var(--paper-cream)', borderColor: 'var(--paper-cream)' }}>
-                Read Sample
+                Read the GDD
               </button>
             </div>
+            <p className="text-xs opacity-60 mt-4">
+              Steam · iOS · Android · macOS
+            </p>
           </div>
         </section>
 
-        {/* Cast of Characters */}
-        <section className="mt-12 animate-fade-in-up animation-delay-500">
-          <div className="newspaper-rule-stars" />
+        {/* Features Grid */}
+        <section className="mt-12 animate-fade-in-up animation-delay-600">
+          <div className="newspaper-rule-double" />
           
           <div className="section-title-ornate">
-            <h3 className="headline-tertiary">Dramatis Personæ</h3>
+            <h3 className="headline-tertiary">The Critical Acclaim</h3>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mt-6">
-            <div className="character-card">
-              <div className="character-initial">S</div>
-              <div>
-                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">Sonny Larino</h4>
-                <p className="text-sm text-ink-brown">
-                  Our tormented hero. A bowling prodigy whose perfect game at age twelve 
-                  foretold a destiny soaked in tragedy. Haunted by the ghost of his 
-                  beloved, he rolls through life seeking vengeance and redemption.
-                </p>
-              </div>
+          <div className="grid md:grid-cols-3 gap-4 mt-6">
+            <div className="testimonial-card animate-fade-in-up animation-delay-300">
+              <p className="text-sm mb-2">
+                &ldquo;Cuphead meets Sin City. I couldn&apos;t stop playing until 
+                I caught her. I never caught her.&rdquo;
+              </p>
+              <p className="text-xs text-ink-faded">— The Brooklyn Eagle</p>
             </div>
-            
-            <div className="character-card">
-              <div className="character-initial">R</div>
-              <div>
-                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">The Ghost of Rose</h4>
-                <p className="text-sm text-ink-brown">
-                  Sonny&apos;s eternal love, present in absence. Her memory haunts 
-                  every frame, every strike a tribute to what was lost. She appears 
-                  in dreams and visions, guiding or tormenting.
-                </p>
-              </div>
+
+            <div className="testimonial-card animate-fade-in-up animation-delay-400">
+              <p className="text-sm mb-2">
+                &ldquo;The rubber hose aesthetic is flawless. The violence is 
+                balletic. The heartbreak is real.&rdquo;
+              </p>
+              <p className="text-xs text-ink-faded">— Animation Weekly</p>
             </div>
-            
-            <div className="character-card">
-              <div className="character-initial">D</div>
-              <div>
-                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">Divine Mike</h4>
-                <p className="text-sm text-ink-brown">
-                  Proprietor of Divine Lanes and keeper of secrets. A man who&apos;s 
-                  seen everything and forgets nothing. His bowling alley is both 
-                  sanctuary and battleground.
-                </p>
-              </div>
-            </div>
-            
-            <div className="character-card">
-              <div className="character-initial">B</div>
-              <div>
-                <h4 className="font-bold uppercase tracking-wide text-sm mb-1">The Bowery Boys</h4>
-                <p className="text-sm text-ink-brown">
-                  A gang of toughs who&apos;ve made the bowling alleys of Brooklyn 
-                  their turf. They don&apos;t take kindly to Sonny&apos;s return. Violence 
-                  follows them like smoke follows fire.
-                </p>
-              </div>
+
+            <div className="testimonial-card animate-fade-in-up animation-delay-500">
+              <p className="text-sm mb-2">
+                &ldquo;Part Hotline Miami, part heartbreak simulator. 
+                I&apos;ve never felt so sad rolling a strike.&rdquo;
+              </p>
+              <p className="text-xs text-ink-faded">— Indie Game Review</p>
             </div>
           </div>
         </section>
 
         {/* The World Section */}
         <section className="mt-12 animate-fade-in-up animation-delay-600">
-          <div className="newspaper-rule-double" />
+          <div className="newspaper-rule-stars" />
           
           <div className="section-title-ornate">
             <h3 className="headline-tertiary">The World of Sonny&apos;s Shining</h3>
@@ -354,25 +415,30 @@ export default function Home() {
 
           <div className="newspaper-columns mt-6 article-text">
             <p className="drop-cap">
-              Brooklyn in 1925 was a borough of contradictions—a place where immigrant 
-              dreams met American nightmares, where speakeasies flourished behind locked 
-              doors, and where a man&apos;s honor could be measured in strikes and spares.
+              The city is a character. Neon signs flicker over rain-slicked streets. 
+              Jazz spills from speakeasy doorways. The camera swoops between Diner 
+              Dash-style isometric views and Street Fighter boss battles, always 
+              following Sonny as he fights his way toward her.
             </p>
             <p>
-              The bowling alleys of Sunset Park were more than recreation; they were 
-              cathedrals of competition, temples where fortunes changed hands and 
-              reputations were forged in the thunderous crash of falling pins.
+              Every level is a new district, a new boss, a new piece of Kewpie&apos;s 
+              empire. The bear bartender. The crab and his mouse rider. The rooster 
+              slumlord. The raven dominatrix. The cat DJ. The bulldog mechanic. 
+              The owl aristocrat. And finally, on a yacht lit up like a casino 
+              with bowling lanes on its deck—Kewpie himself.
             </p>
             <p>
-              It was an era of silent films and vaudeville, where entertainment meant 
-              spectacle and drama was writ large across the stage. This novel captures 
-              that spirit—the exaggerated emotions, the melodramatic stakes, the way 
-              every gesture carried the weight of meaning.
+              The art direction pulls from Fleischer Studios and noir cinema: 
+              high contrast lighting, deep shadows, characters that spring and 
+              stretch with every movement. Anthropomorphic animals in period 
+              costume—bowling shirts and evening gowns, mechanic overalls and 
+              silk bathrobes.
             </p>
             <p>
-              And underlying it all, the steady rhythm of the lanes: the roll, the 
-              crash, the reset. Life in Sunset Park moved to this beat, and so does 
-              this story.
+              And always, always, the flash of a red tail disappearing around 
+              a corner. The echo of a giggle. The promise that maybe this time, 
+              if you&apos;re fast enough, if you hit hard enough, you&apos;ll 
+              catch her.
             </p>
           </div>
         </section>
@@ -383,7 +449,7 @@ export default function Home() {
           
           <div className="decorative-box mt-8 text-center">
             <h3 className="headline-tertiary mb-2">Subscribe to the Gazette</h3>
-            <p className="text-sm text-ink-faded mb-4">Receive news of upcoming releases and exclusive excerpts</p>
+            <p className="text-sm text-ink-faded mb-4">Receive news of development updates and exclusive content</p>
             
             {emailSubmitted ? (
               <div className="stamp inline-block" style={{ transform: 'rotate(0deg)' }}>
@@ -410,24 +476,22 @@ export default function Home() {
           <div className="newspaper-rule-triple" />
           
           <div className="text-center py-12">
-            <p className="headline-tertiary mb-4">Don&apos;t Miss This</p>
+            <p className="headline-tertiary mb-4">She Keeps Running</p>
             <h3 className="headline-primary text-3xl md:text-5xl mb-4">
               SONNY&apos;S SHINING
             </h3>
             <p className="headline-secondary mb-8">
-              A Novel That Strikes the Heart
+              You Keep Following
             </p>
             
             <div className="price-badge mx-auto mb-8">
-              <span>Available<br/>Now</span>
+              <span>Christmas<br/>2026</span>
             </div>
             
-            <button className="vintage-button text-lg px-12 py-4">
-              Get Your Copy
-            </button>
+            <PreorderButton size="large" />
             
             <p className="mt-6 text-xs text-ink-faded uppercase tracking-widest">
-              Hardcover · Paperback · Electric Edition
+              Steam · iOS · Android · macOS · $8 Preorder
             </p>
           </div>
         </section>
@@ -445,11 +509,20 @@ export default function Home() {
               The Shining Gazette
             </p>
             <p className="text-xs text-ink-faded tracking-wider uppercase">
-              © MCMXXV · All Rights Reserved · Brooklyn, New York
+              © 2024-2026 · All Rights Reserved · A Michael Hurley Production
             </p>
-            <p className="text-xs text-ink-faded mt-4 max-w-lg mx-auto">
-              A novel by Michael Hurley · Inspired by silent films, vaudeville, and the golden age of bowling
-            </p>
+            
+            <div className="flex justify-center gap-6 mt-4 text-xs">
+              <Link href="/privacy" className="text-ink-faded hover:text-accent-red transition-colors uppercase tracking-wider">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="text-ink-faded hover:text-accent-red transition-colors uppercase tracking-wider">
+                Terms of Service
+              </Link>
+              <Link href="/refunds" className="text-ink-faded hover:text-accent-red transition-colors uppercase tracking-wider">
+                Refund Policy
+              </Link>
+            </div>
           </div>
           
           <div className="bowling-pin-divider mt-6">
@@ -457,7 +530,7 @@ export default function Home() {
           </div>
           
           <p className="text-center text-xs text-ink-faded mt-4">
-            &ldquo;In every frame, a story. In every strike, a soul.&rdquo;
+            &ldquo;She keeps running. You keep following.&rdquo;
           </p>
         </div>
       </footer>

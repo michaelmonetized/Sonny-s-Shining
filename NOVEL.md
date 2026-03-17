@@ -194,7 +194,7 @@ The bar had become a war zone. Tables flipped. Glasses shattered. The remaining 
 
 Sonny fought like a man possessed.
 
-A waitress came at him with a broken bottle. He caught her wrist, twisted, felt the glass clatter to the floor. An elbow to her solar plexus and she was down.
+A waitress came at him with a broken bottle. He caught her wrist, twisted, felt the glass clatter to the floor. A sharp knee to her floating ribs and she crumpled, gasping.
 
 Two bartenders rushed him from behind the bar, wielding soda guns like weapons. The carbonated stream hit him in the face, blinding him momentarily, but he'd bowled in worse conditions. His towel found a wine bottle on a nearby table, and he sent it spinning into the first bartender's teeth.
 
@@ -612,7 +612,7 @@ And in his hand was a coat hanger. Wire. Sharp.
 
 "Then you're stupider than you look." Desi lunged.
 
-The coat hanger swung in a vicious arc aimed at Sonny's throat. He leaned back, felt metal whisper past his Adam's apple, and counterattacked with a palm strike to Desi's solar plexus.
+The coat hanger swung in a vicious arc aimed at Sonny's throat. He leaned back, felt metal whisper past his Adam's apple, and counterattacked with a heel kick to Desi's knee. Something popped.
 
 The landlord absorbed the blow like it was nothing.
 
@@ -918,7 +918,7 @@ He kept moving.
 
 The crowd had cleared the dance floor, pressing against the walls, their eyes gleaming in the strobe lights. They weren't running. They were _watching_. This was the show they'd paid for.
 
-A bouncer cut off his path. Sonny feinted left, went right, and planted his foot in the man's solar plexus. The bouncer folded but didn't fall—these were professionals—and grabbed Sonny's ankle on the way down.
+A bouncer cut off his path. Sonny feinted left, went right, and drove his elbow into the man's throat. The bouncer gagged but didn't fall—these were professionals—and grabbed Sonny's collar on the way down.
 
 They hit the floor together, grappling, rolling across the sticky dance floor. Fists connected. Knees drove into ribs. The strobes made the fight seem slower than it was, each impact frozen in a moment of brilliant white.
 

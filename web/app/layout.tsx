@@ -27,9 +27,19 @@ const baskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "SONNY'S SHINING | A Novel by Michael Hurley",
-  description: "A fever dream of violence and heartbreak. A tragedy dressed up as a love story. A beat-em-up requiem for a fool who couldn't stop swinging.",
-  keywords: ["novel", "noir", "bowling", "beat-em-up", "Michael Hurley", "fiction"],
+  title: "SONNY'S SHINING | A Beat-Em-Up Tragedy | Christmas 2026",
+  description: "She keeps running. You keep following. A rubber hose beat-em-up through 1935 noir. Chase Lucy across 8 brutal levels. Preorder now for $8.",
+  keywords: ["indie game", "beat-em-up", "rubber hose", "noir", "1930s", "cuphead", "Michael Hurley", "Sonny's Shining"],
+  openGraph: {
+    title: "SONNY'S SHINING | A Beat-Em-Up Tragedy",
+    description: "She keeps running. You keep following. A rubber hose beat-em-up through 1935 noir.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SONNY'S SHINING | Christmas 2026",
+    description: "She keeps running. You keep following. Preorder now for $8.",
+  },
 };
 
 export default function RootLayout({
