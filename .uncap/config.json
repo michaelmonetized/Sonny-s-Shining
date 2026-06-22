@@ -1,0 +1,19 @@
+{
+  "repoId": "r1753h37tegdckxv7e1a0nt2d187m191",
+  "owner": "uncap_user",
+  "name": "Sonny's Shining",
+  "originType": "native",
+  "legacy": {
+    "hasGitHub": false,
+    "hasGit": true
+  },
+  "defaults": {
+    "file": "public",
+    "fragment": "public",
+    "issue": "public",
+    "pullRequest": "public",
+    "branch": "public",
+    "comment": "public"
+  },
+  "headSha": ""
+}
