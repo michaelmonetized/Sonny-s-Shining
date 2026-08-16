@@ -5,20 +5,6 @@ import { VIEW_H, VIEW_W, currentWaveLabel } from "../logic/sim";
 import type { Actor, World } from "../logic/types";
 import { drawHose, drawProjectile } from "./hose";
 
-const SPRITE_FOR: Record<string, string> = {
-  sonny: "sonny",
-  waitress: "waitress",
-  bertie: "bertie",
-  charlie: "charlie",
-  desi: "desi",
-  tippi: "tippi",
-  bessie: "bessie",
-  harry: "harry",
-  ivy: "ivy",
-  kewpie: "kewpie",
-  lucy: "lucy",
-};
-
 export function fill(ctx: CanvasRenderingContext2D, color: string): void {
   ctx.fillStyle = color;
   ctx.fillRect(0, 0, VIEW_W, VIEW_H);
@@ -37,6 +23,7 @@ export function drawWorld(ctx: CanvasRenderingContext2D, world: World, assets: A
   }
 
   ctx.restore();
+  drawFilm(ctx, time);
   drawHud(ctx, world);
   if (world.phase === "fatality") drawFatalityBanner(ctx, world);
   if (world.player.state === "catch") drawCatchFlash(ctx);
@@ -47,7 +34,10 @@ function drawBrawl(ctx: CanvasRenderingContext2D, world: World, assets: Assets, 
   if (bg) {
     const srcW = bg.width * 0.72;
     const sx = (world.cameraX / Math.max(1, world.width - VIEW_W)) * Math.max(0, bg.width - srcW);
+    ctx.save();
+    ctx.filter = "grayscale(0.35) sepia(0.42) saturate(0.72) contrast(1.32)";
     ctx.drawImage(bg, sx, 0, srcW, bg.height, 0, 0, VIEW_W, VIEW_H);
+    ctx.restore();
   } else {
     fill(ctx, "#2d1c18");
   }
@@ -57,7 +47,7 @@ function drawBrawl(ctx: CanvasRenderingContext2D, world: World, assets: Assets, 
   const sorted = [...world.actors].sort((a, b) => a.y - b.y);
   for (const actor of sorted) {
     if (actor.state === "dead" && actor.kind !== "boss") continue;
-    drawActor(ctx, actor, assets, time, world.cameraX);
+    drawActor(ctx, actor, time, world.cameraX);
   }
   for (const proj of world.projectiles) {
     ctx.save();
@@ -87,7 +77,6 @@ function drawBrawl(ctx: CanvasRenderingContext2D, world: World, assets: Assets, 
 function drawActor(
   ctx: CanvasRenderingContext2D,
   actor: Actor,
-  assets: Assets,
   time: number,
   cameraX: number,
 ): void {
@@ -103,23 +92,13 @@ function drawActor(
   const flash = actor.state === "hurt" && Math.floor(time / 40) % 2 === 0;
   if (flash) ctx.filter = "brightness(2.2)";
 
-  const key = SPRITE_FOR[actor.sprite] ?? SPRITE_FOR[actor.enemyKind ?? ""];
-  const sprite = key ? assets.sprites[key] : undefined;
   const bob = Math.sin(time * 0.008 + actor.x * 0.02) * (actor.state === "walk" ? 4 : 1.6);
   const punch = actor.state === "attack" ? actor.facing * 10 : 0;
   const h = actor.kind === "boss" ? 250 : actor.kind === "player" ? 200 : 168;
-  const w = sprite ? (sprite.width / sprite.height) * h : h * 0.7;
-
-  if (sprite) {
-    ctx.save();
-    ctx.translate(punch, bob);
-    ctx.scale(actor.facing, actor.state === "hurt" ? 0.94 : 1);
-    ctx.drawImage(sprite, -w / 2, -h + 12, w, h);
-    ctx.restore();
-  } else {
-    ctx.translate(punch, bob);
-    drawHose(ctx, actor, time);
-  }
+  ctx.translate(punch, bob);
+  // Deliberately draw the cast as living ink rather than photo cutouts.  The
+  // exaggerated, procedural limbs give every move a rubber-hose bounce.
+  drawHose(ctx, actor, time);
 
   if (actor.kind !== "player" && actor.hp.hits < actor.hp.maxHits && actor.state !== "dead") {
     const pct = actor.hp.hits / actor.hp.maxHits;
@@ -135,8 +114,11 @@ function drawChase(ctx: CanvasRenderingContext2D, world: World, assets: Assets, 
   const bg = assets.bgs["bg-chase"];
   if (bg) {
     const scroll = ((world.chaseTime * 0.25) % bg.height);
+    ctx.save();
+    ctx.filter = "grayscale(0.42) sepia(0.5) saturate(0.7) contrast(1.36)";
     ctx.drawImage(bg, 0, scroll - bg.height, VIEW_W, VIEW_H);
     ctx.drawImage(bg, 0, scroll, VIEW_W, VIEW_H);
+    ctx.restore();
   } else {
     fill(ctx, "#1a1410");
   }
@@ -245,7 +227,12 @@ function banner(ctx: CanvasRenderingContext2D, title: string, sub: string): void
 
 export function drawTitle(ctx: CanvasRenderingContext2D, assets: Assets, time: number): void {
   const art = assets.bgs.title;
-  if (art) ctx.drawImage(art, 0, 0, VIEW_W, VIEW_H);
+  if (art) {
+    ctx.save();
+    ctx.filter = "grayscale(0.5) sepia(0.65) saturate(0.65) contrast(1.4)";
+    ctx.drawImage(art, 0, 0, VIEW_W, VIEW_H);
+    ctx.restore();
+  }
   else fill(ctx, "#1a1410");
   ctx.fillStyle = "rgba(10,8,6,0.38)";
   ctx.fillRect(0, 0, VIEW_W, VIEW_H);
@@ -267,6 +254,7 @@ export function drawTitle(ctx: CanvasRenderingContext2D, assets: Assets, time: n
   ctx.font = "700 18px serif";
   ctx.fillText("PRESS ENTER  ·  TAP TO START", VIEW_W / 2, VIEW_H - 36);
   ctx.globalAlpha = 1;
+  drawFilm(ctx, time);
 }
 
 export function drawIntro(ctx: CanvasRenderingContext2D, assets: Assets, page: number): void {
@@ -376,6 +364,25 @@ export function drawEnding(ctx: CanvasRenderingContext2D, assets: Assets, time: 
   ctx.globalAlpha = 0.6 + Math.sin(time * 0.004) * 0.3;
   ctx.fillText("ENTER  ·  one more time", VIEW_W / 2, 520);
   ctx.globalAlpha = 1;
+  drawFilm(ctx, time);
+}
+
+/** A restrained 1930s cel / nitrate-film finish, applied after scene art. */
+function drawFilm(ctx: CanvasRenderingContext2D, time: number): void {
+  ctx.save();
+  ctx.globalCompositeOperation = "overlay";
+  ctx.globalAlpha = 0.13;
+  for (let y = 0; y < VIEW_H; y += 4) {
+    ctx.fillStyle = (Math.floor(y / 4 + time * 0.02) % 3 === 0) ? "#f4e8d3" : "#241b14";
+    ctx.fillRect(0, y, VIEW_W, 1);
+  }
+  ctx.globalCompositeOperation = "source-over";
+  const vignette = ctx.createRadialGradient(VIEW_W / 2, VIEW_H / 2, VIEW_H * 0.2, VIEW_W / 2, VIEW_H / 2, VIEW_W * 0.72);
+  vignette.addColorStop(0, "rgba(0,0,0,0)");
+  vignette.addColorStop(1, "rgba(20,12,8,0.42)");
+  ctx.fillStyle = vignette;
+  ctx.fillRect(0, 0, VIEW_W, VIEW_H);
+  ctx.restore();
 }
 
 export function drawGameOver(ctx: CanvasRenderingContext2D, score: number): void {

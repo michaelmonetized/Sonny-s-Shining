@@ -27,7 +27,8 @@ export function drawHose(ctx: CanvasRenderingContext2D, actor: Actor, time: numb
   ctx.scale(actor.facing, squash);
 
   const kind = actor.enemyKind ?? actor.sprite;
-  if (kind === "rat") drawCritter(ctx, "#6b5a4a", "#d8c7a8", 0.72, true);
+  if (actor.kind === "player" || kind === "sonny") drawSonny(ctx, actor, time);
+  else if (kind === "rat") drawCritter(ctx, "#6b5a4a", "#d8c7a8", 0.72, true, actor, time);
   else if (kind === "tenant") drawCritter(ctx, "#c9c2b2", "#4a423a", 0.9, false);
   else if (kind === "patron") drawShadow(ctx);
   else if (kind === "bouncer") drawBrute(ctx, "#2c241c", "#1a1410");
@@ -45,6 +46,8 @@ function drawCritter(
   belly: string,
   scale: number,
   hat: boolean,
+  actor?: Actor,
+  time = 0,
 ): void {
   ctx.save();
   ctx.scale(scale, scale);
@@ -52,11 +55,12 @@ function drawCritter(
   ctx.lineJoin = "round";
   ctx.strokeStyle = "#1a1410";
   ctx.lineWidth = 6;
+  const stride = actor?.state === "walk" ? Math.sin(time * 0.014 + actor.x * 0.04) * 18 : 0;
   ctx.beginPath();
   ctx.moveTo(-16, 20);
-  ctx.quadraticCurveTo(-28, 50, -18, 78);
+  ctx.quadraticCurveTo(-28 - stride * 0.25, 50, -18 - stride, 78);
   ctx.moveTo(16, 20);
-  ctx.quadraticCurveTo(28, 50, 18, 78);
+  ctx.quadraticCurveTo(28 + stride * 0.25, 50, 18 + stride, 78);
   ctx.stroke();
   ellipse(ctx, 0, 8, 22, 28, fur);
   ellipse(ctx, 0, 14, 12, 16, belly);
@@ -75,6 +79,51 @@ function drawCritter(
     ctx.stroke();
   }
   ctx.restore();
+}
+
+function drawSonny(ctx: CanvasRenderingContext2D, actor: Actor, time: number): void {
+  const stride = actor.state === "walk" || actor.state === "dodge" ? Math.sin(time * 0.014 + actor.x * 0.05) * 20 : 0;
+  const swing = actor.state === "attack" ? 38 : stride * 0.6;
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.strokeStyle = "#17110d";
+  ctx.lineWidth = 8;
+
+  // Long noodle legs and gloves are the main rubber-hose silhouette.
+  ctx.beginPath();
+  ctx.moveTo(-16, 20);
+  ctx.quadraticCurveTo(-30 - stride * 0.3, 46, -18 - stride, 82);
+  ctx.moveTo(16, 20);
+  ctx.quadraticCurveTo(30 + stride * 0.3, 46, 18 + stride, 82);
+  ctx.moveTo(-22, -4);
+  ctx.quadraticCurveTo(-48, 18, -42 - swing, 22);
+  ctx.moveTo(22, -4);
+  ctx.quadraticCurveTo(48, 18, 42 + swing, 16);
+  ctx.stroke();
+  ellipse(ctx, -19 - stride, 84, 15, 7, "#f1e3bf");
+  ellipse(ctx, 19 + stride, 84, 15, 7, "#f1e3bf");
+  ellipse(ctx, -43 - swing, 22, 10, 9, "#f1e3bf");
+  ellipse(ctx, 43 + swing, 16, 10, 9, "#f1e3bf");
+
+  ellipse(ctx, 0, 12, 27, 33, "#b84537");
+  ctx.fillStyle = "#f1d5a0";
+  ctx.beginPath();
+  ctx.ellipse(0, 15, 13, 18, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.stroke();
+  ellipse(ctx, 0, -31, 28, 23, "#b98a55");
+  // floppy ears
+  ellipse(ctx, -29, -30, 11, 22, "#8b5b3e");
+  ellipse(ctx, 29, -30, 11, 22, "#8b5b3e");
+  ctx.fillStyle = "#17110d";
+  ctx.beginPath();
+  ctx.arc(-9, -34, 4, 0, Math.PI * 2);
+  ctx.arc(9, -34, 4, 0, Math.PI * 2);
+  ctx.ellipse(0, -23, 7, 5, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(0, -18, 10, 0.1, Math.PI - 0.1);
+  ctx.stroke();
 }
 
 function drawBrute(ctx: CanvasRenderingContext2D, fur: string, shade: string): void {
