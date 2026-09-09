@@ -11,12 +11,13 @@ Sonny's Shining is a retro-styled side-scrolling beat-em-up video game inspired 
 - Brutal boss finishers
 - Cross-platform release (Steam, iOS, Android, macOS)
 
-## Current State
+## Current State (HEAD)
 
-- **Status**: Pre-production (Design phase)
-- **Documentation**: Complete GDD v1.0, README, story outline, screenplay/novel formats
-- **Tech Stack**: TBD (likely Unity or Godot for cross-platform)
-- **Web Presence**: Next.js marketing site scaffold
+- **Status**: Pre-production / design-docs only — **no game engine project in this repo**
+- **Documentation**: GDD, README, NOVEL.md, SCRIPT.md, PLAY.md (tragedy-in-three-acts staging)
+- **Tech Stack**: **Engine TBD** (Unity or Godot are candidates). Accurate at HEAD: there is **no** `.unity` project and **no** Godot `project.godot` yet.
+- **Web Presence**: Next.js marketing site scaffold under `web/`
+- **Do not claim**: playable builds, engine selection finalized, or production timeline certainty
 
 ## Phase 1: Prototype (Months 1-4)
 
@@ -115,3 +116,6 @@ Sonny's Shining is a retro-styled side-scrolling beat-em-up video game inspired 
 - Development: Engine licensing, tools, testing
 - Marketing: Trailer production, PR, ads
 - Platform fees: Steam (30%), App Store (30%), Google Play (30%)
+
+
+*PLAN parity sync: 2026-09-08 — Current State clarified; engine still honestly TBD.*
