@@ -43,6 +43,11 @@ export default function Home() {
             <p className="headline-secondary">
               She Keeps Running. You Keep Following.
             </p>
+            <div className="mt-6">
+              <Link href="/play" className="vintage-button">
+                Play the Game
+              </Link>
+            </div>
           </div>
 
           <div className="newspaper-rule-ornate" />
@@ -359,10 +364,10 @@ export default function Home() {
               Be among the first to chase Lucy through the neon-lit streets.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/play" className="vintage-button vintage-button-outline" style={{ color: 'var(--paper-cream)', borderColor: 'var(--paper-cream)' }}>
+                Play the Game
+              </Link>
               <PreorderButton variant="gold" />
-              <button className="vintage-button vintage-button-outline" style={{ color: 'var(--paper-cream)', borderColor: 'var(--paper-cream)' }}>
-                Read the GDD
-              </button>
             </div>
             <p className="text-xs opacity-60 mt-4">
               Steam · iOS · Android · macOS
@@ -488,7 +493,12 @@ export default function Home() {
               <span>Christmas<br/>2026</span>
             </div>
             
-            <PreorderButton size="large" />
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/play" className="vintage-button">
+                Play the Game
+              </Link>
+              <PreorderButton size="large" />
+            </div>
             
             <p className="mt-6 text-xs text-ink-faded uppercase tracking-widest">
               Steam · iOS · Android · macOS · $8 Preorder
